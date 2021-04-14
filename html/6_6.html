@@ -3,13 +3,13 @@
 <html lang="en" class="h-100">
   <head>
     <meta charset="utf-8">
-    <title>New Question page</title>
+    <title>login</title>
 
     <!-- Bootstrap core CSS -->
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../css/6_2.css" rel="stylesheet">
+    <link href="../css/6_6.css" rel="stylesheet">
   </head>
   <body class="d-flex flex-column h-100">
     
@@ -44,39 +44,34 @@
   <div class="container">
       <div class="row">
         <div class="col-8">
-          <H1 class="new_question">New Question</H1>
-           <div class="row title">
-              <div class="col-2">
-                Title
-              </div>
-              <div class="col-10">
-                <input type="text" size="40" maxlength="50" placeholder="Enter the title here">
-              </div>
+          <div class="header">
+            <h2>Log In</h2>
+            <p><font color="red">Sorry, wrong password!</font></p>
+          </div>
+
+          <div class="row login">
+            <div class="col-3">
+              Login
             </div>
-
-            <div class="row text">
-              <div class="col-2">
-                Text
-              </div>
-              <div class="col-10">
-                <textarea name="comment" cols="44" rows="15" maxlength="700" placeholder="Enter the text here"></textarea>
-              </div>
+            <div class="col-9" >
+              <input type="text" size="20" placeholder="Enter your login here" maxlength="50">
             </div>
+          </div>
 
-             <div class="row tags">
-              <div class="col-2">
-                Tags
-              </div>
-              <div class="col-10">
-                <input type="text" size="40" maxlength="50" placeholder="Enter the tags here">
-              </div>
+          <div class="row login">
+            <div class="col-3">
+              Password
             </div>
+            <div class="col-9">
+              <input type="text" size="20" placeholder="Enter your password here" maxlength="50">
+              <br>
+              <button class="btn btn-outline-success button" type="submit">Save</button>
+              <br>
+              <a href="#">create new account</a>
+            </div>
+          </div>
 
-            <button class="ask">ASK!</button>
-
-        </div>    
-            
-          
+         </div>
 
         <!-- Right part --> 
         <div class="col-4 right_part">
@@ -114,7 +109,7 @@
             </div>
 
         </div> 
-        <H2 class="tag">Best Members</H2>
+        <H2 class="tags">Best Members</H2>
           <div class="best_memb">
             <a href="#" style="color: black">Mr. Freeman</a> <br>
             <a href="#" style="color: black">Mr. Hisenberg</a> <br>

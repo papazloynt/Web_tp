@@ -7,17 +7,17 @@ main > .container {
 }
 
 .hot_question{
-	padding: 15px 0 0 0;
+  padding: 15px 0 0 0;
 }
 
 .question{
-	border: 3px black solid;
-	padding: 20px;
+  border: 3px black solid;
+  padding: 20px;
   margin: 20px 0 0 0;
 }
 
 .text_img {
-	padding: 18px;
+  padding: 18px;
 }
 
 .sign {
@@ -29,17 +29,17 @@ main > .container {
    }
 
  .sign figcaption {
- 	margin: 0 0 0 34px; 
+  margin: 0 0 0 34px; 
    }
 
   .appraisal{
-   	width: 10px;
-   	height: 10px;
+    width: 10px;
+    height: 10px;
    }
 
 
   .number {
-   	margin: 0 0 0 24px;
+    margin: 0 0 0 24px;
    }
 
    .indent {

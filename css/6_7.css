@@ -1,0 +1,28 @@
+main > .container {
+  padding: 60px 15px 0;
+}
+
+
+.header{
+  margin: 24px 0 0 10px ;
+}
+
+.reg{
+  margin: 27px 0;
+}
+
+.button{
+	margin: 10px 0;	
+}
+
+ .right_part{
+    margin: 80px 0px 0px 0px;
+ }
+
+ .tags{
+    margin: 20px;
+ }
+
+ .best_memb {
+     margin: 0 0 0 25px;
+  }
