@@ -3,13 +3,13 @@
 <html lang="en" class="h-100">
   <head>
     <meta charset="utf-8">
-    <title>Settings page</title>
+    <title>login</title>
 
     <!-- Bootstrap core CSS -->
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../css/6_5.css" rel="stylesheet">
+    <link href="../css/registration.css" rel="stylesheet">
   </head>
   <body class="d-flex flex-column h-100">
     
@@ -24,21 +24,15 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <img src="../img/200.jpg" width="50" height="50">
+            <a class="nav-link" aria-current="page" href="#">log in</a>
           </li>
           <li class="nav-item">
-            <p class="nav-link active" aria-current="page">Dr. Paper</p>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">settings</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">log out</a>
+            <a class="nav-link" aria-current="page" href="#">register</a>
           </li>
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">ASK!</button>
+          <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
     </div>
@@ -51,51 +45,70 @@
       <div class="row">
         <div class="col-8">
           <div class="header">
-            <h2>Settings: Dr. Pepper</h2>
+            <h2>Registration</h2>
+            <p><font color="red">Sorry, this email address already registered!</font></p>
           </div>
 
-          <div class="row settings">
+          <div class="row reg">
             <div class="col-3">
               Login
             </div>
-            <div class="col-9">
-              <input type="text" size="20" value="Det007" maxlength="50">
+            <div class="col-9" >
+              <input type="text" size="20" placeholder="Enter your login here" maxlength="50">
             </div>
           </div>
 
-          <div class="row settings">
+          <div class="row reg">
             <div class="col-3">
               Email
             </div>
             <div class="col-9">
-              <input type="text" size="20" value="123@mail.ru" maxlength="50">
+              <input type="text" size="20" placeholder="Enter your email here" maxlength="50">
             </div>
           </div>
 
-          <div class="row settings">
+          <div class="row reg">
             <div class="col-3">
               NickName
             </div>
             <div class="col-9">
-              <input type="text" size="20" value="Detanator007" maxlength="50">
+              <input type="text" size="20" placeholder="Enter your nickname here" maxlength="50">
             </div>
           </div>
 
-           <div class="row settings">
+          <div class="row reg">
+            <div class="col-3">
+              Password
+            </div>
+            <div class="col-9">
+              <input type="text" size="20" placeholder="Enter your password here" maxlength="50">
+            </div>
+          </div>
+
+          <div class="row reg">
+            <div class="col-3">
+              Repeat password
+            </div>
+            <div class="col-9">
+              <input type="text" size="20" placeholder="Enter your password again here" maxlength="50">
+            </div>
+          </div>
+
+          <div class="row reg">
             <div class="col-3">
               Upload avatar
             </div>
             <div class="col-9">
-              <img src="../img/200.jpg" width="70" height="70">
-              <br>
               <input class="img" type="file" name="photo" multiple accept="image/*,image/jpg">
-             <input type="submit" value="Отправить">
              <br>
-             <button class="btn btn-outline-success" type="submit">Save</button>
+             <button class="btn btn-outline-success button" type="submit">Register!</button>
             </div>
           </div>
 
-        
+
+
+  
+
          </div>
 
         <!-- Right part --> 
@@ -144,9 +157,13 @@
 
         </div>   
   </div>
+  </div>
+  <footer>
+    &copy; Частиков Александр
+  </footer>
 </main>
 
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
       
 </body>
 </html>
